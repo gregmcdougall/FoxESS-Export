@@ -25,7 +25,7 @@ Example:
 
 Pulls every day in that calendar month. If the month is the current
 (incomplete) month, it stops at yesterday instead of requesting future dates.
-Output is written to foxess_history_MM-YYYY.csv.
+Output is written to foxess_history_YYYY-MM.csv.
 
 Edit VARIABLES below to control which fields are pulled.
 The API only returns up to 24 hours of history per call, so this script
