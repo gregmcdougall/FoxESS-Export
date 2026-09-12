@@ -95,7 +95,7 @@ def parse_month_arg(month_str: str):
 def make_headers(path: str) -> dict:
     timestamp = str(round(time.time() * 1000))
     raw = f"{path}\r\n{API_KEY}\r\n{timestamp}"
-    signature = hashlib.md5(raw.encode("utf-8")).hexdigest()
+    signature = hashlib.sha256(raw.encode("utf-8")).hexdigest()
     return {
         "token": API_KEY,
         "timestamp": timestamp,
