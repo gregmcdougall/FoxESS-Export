@@ -51,7 +51,7 @@ python foxess_export.py 08-2026
 This produces `foxess_history_2026-08.csv` with columns:
 
 ```
-time, pvPower, loadsPower, feedinPower, gridConsumptionPower, batChargePower, batDischargePower, SoC
+time, pvPower, loadsPower, feedinPower, gridConsumptionPower, batChargePower, batDischargePower, SoC, ResidualEnergy
 ```
 
 ## Configuration
