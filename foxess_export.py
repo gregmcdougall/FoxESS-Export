@@ -60,9 +60,9 @@ HISTORY_PATH = "/op/v0/device/history/query"
 DEVICE_LIST_PATH = "/op/v0/device/list"
 
 # Common variables: pvPower, batChargePower, batDischargePower, batPower,
-# loadsPower, feedinPower, gridConsumptionPower, SoC, remainCapacity
+# loadsPower, feedinPower, gridConsumptionPower, SoC
 VARIABLES = ["pvPower", "loadsPower", "feedinPower", "gridConsumptionPower",
-             "batChargePower", "batDischargePower", "SoC", "remainCapacity"]
+             "batChargePower", "batDischargePower", "SoC"]
 # -------------------------------------------
 
 
