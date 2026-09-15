@@ -1,8 +1,6 @@
 # FoxESS History Exporter
 
-A small Python script that pulls historical inverter/battery data from the
-[FoxESS Open API]([https://www.foxesscloud.com](https://developer-eu.foxesscloud.com/login)) and saves it as CSV, ready
-for analysis (e.g. self-consumption, self-sufficiency, battery cycling, export/import timing).
+A small Python script that pulls historical inverter/battery data from the [FoxESS Open API](https://developer-eu.foxesscloud.com/login) and saves it as CSV, ready for analysis (e.g. self-consumption, self-sufficiency, battery cycling, export/import timing).
 
 ## What it does
 
