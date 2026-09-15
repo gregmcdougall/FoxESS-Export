@@ -1,8 +1,7 @@
 """
 FoxESS Open API -> CSV exporter
 ================================
-Pulls historical inverter/battery data for a date range and saves it to CSV,
-ready for analysis.
+Pulls historical inverter/battery data for a date range and saves it to CSV, ready for analysis.
 
 SETUP
 -----
@@ -61,9 +60,9 @@ HISTORY_PATH = "/op/v0/device/history/query"
 DEVICE_LIST_PATH = "/op/v0/device/list"
 
 # Common variables: pvPower, batChargePower, batDischargePower, batPower,
-# loadsPower, feedinPower, gridConsumptionPower, SoC,ResidualEnergy
+# loadsPower, feedinPower, gridConsumptionPower, SoC, remainCapacity
 VARIABLES = ["pvPower", "loadsPower", "feedinPower", "gridConsumptionPower",
-             "batChargePower", "batDischargePower", "SoC", "ResidualEnergy"]
+             "batChargePower", "batDischargePower", "SoC", "remainCapacity"]
 # -------------------------------------------
 
 
